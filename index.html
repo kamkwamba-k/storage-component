@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-------------- google fonts ------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!----------------- Custom stylesheet --------------->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <main>
+    <section class="container">
+      <div class="container__links">
+        <img src="images/logo.svg" alt="fylo logo">
+
+        <ul class="container__links-container">
+          <!-- single button -->
+          <li class="container__links-container__link">
+            <img src="images/icon-document.svg" alt="document icon">
+          </li>
+
+          <li class="container__links-container__link">
+            <img src="images/icon-folder.svg" alt="folder icon">
+          </li>
+
+          <li class="container__links-container__link">
+            <img src="images/icon-upload.svg" alt="document icon">
+          </li>
+        </ul>
+      </div>
+
+      <div class="container__progress-stats">
+        <h1>You’ve used <span >815 GB</span> of your storage</h1>
+        <div class="container__progress-stats__progressbar-container">
+          <div class="progress-bar" id="progress-bar">
+            <div class="progress-circle" id="progress-circle"></div>
+          </div>
+        </div>
+        <div class="container__progress-stats__progress-labels">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+        <div class="container__progress-stats__remaining-capacity">
+         <p><span>185</span> GB Left</p>
+         <!-- to make an arrow -->
+         <div></div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.x.com/_kingsl3y">Kingsley</a>.
+  </footer>
+
+  <!-- Custom script -->
+  <script src="script.js"> </script>
+</body>
+</html>
