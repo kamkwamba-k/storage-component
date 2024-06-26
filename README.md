@@ -32,7 +32,7 @@ This project is a responsive storage dashboard for Fylo, showcasing current stor
 
 ## Links
 
-- Live Site URL: [social link profile card]()
+- Live Site URL: [Fylo Data Storage](https://kingsley2o18.github.io/storage-component/)
 
 ## License
 This project is licensed under the MIT License. 
