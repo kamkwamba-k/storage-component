@@ -165,24 +165,12 @@ body {
     margin-right: 10px;
 }
 
-.attribution { 
-    color: var(--Pale-Blue);
-    font-size: 14px; 
-    text-align: center; 
-}
-.attribution a { 
-    color: var(--Pale-Blue) 
-}
-.attribution a:hover {
-    color: var(--Grayish-Blue);
-}
-
 
 @media screen and (min-width: 375px) {
     .container {
         background-image: url("../images/bg-desktop.png");
-        background-position: bottom center;
-        background-size: cover;
+       background-position: bottom;
+        background-size: 100% 50vh;
     }
 
     .container__links {
@@ -196,8 +184,6 @@ body {
 
 @media screen and (min-width: 768px) {
     .container {
-        background-position: 0% 45vh;
-        background-size: unset;
         flex-direction: row;
         justify-content: center;
         align-items: center;
